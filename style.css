@@ -1,0 +1,143 @@
+body{
+  font-family: "Russo One", sans-serif;
+  letter-spacing: 2px;
+  background-color:#D3D3D3;
+  margin: 0;
+}
+
+header{
+  margin-left: 8px;
+  margin-right: 8px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header nav a {
+  color: black;
+  margin: 0 15px;
+  text-decoration: none;
+}
+#hero{
+  width: 100%;
+
+  background-image: url('assets/f8f50b1bd3c81b418c5afc9dff5953fe6c5e5527_2000x2000.webp');
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 600px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #D3D3D3;
+}
+h2{
+  width: 220px;
+  line-height: 1.5;
+  text-shadow: 2px 4px 5px rgba(0, 0, 0, 0.5);
+}
+#hero span{
+  text-decoration: underline;
+  
+}
+#about{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 60px;
+  margin-left: auto;
+  margin-right: auto;
+ 
+}
+#about img{
+  margin-bottom: 40px;
+}
+#about h3{
+  margin-top: 40px;
+  
+}
+#about span{
+  font-size: 2rem;
+  color: #4B91E1;
+}
+#hobbies{
+  color: #2E2E11;
+  margin-top: 40px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+#list{
+  display: flex;
+  justify-content: space-around;
+  margin-left: 40px;
+  margin-right: 40px;
+  width: 100%;
+}
+.part img{
+  height: 250px;
+  width: 190px;
+}
+.part{
+  display: flex;
+  gap: 15px;
+}
+h4{
+  margin-bottom: 60px;
+  font-size: 2rem;
+}
+h5{
+  font-size: 1.1rem;
+}
+h6{
+  font-size: 1.7rem;
+}
+.article{
+  width: 130px;
+}
+#projects {
+  padding: 40px 20px;
+  text-align: center;
+}
+.project-list {
+  display: flex;
+  gap: 100px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.project {
+  padding: 20px;
+  width: 300px;
+  background-color: #f4f4f4;
+  border-radius: 8px;
+  text-align: left;
+}
+.project .btn {
+  display: inline-block;
+  margin-top: 10px;
+  padding: 8px 12px;
+  background-color: #333;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+}
+footer {
+  padding: 20px;
+  text-align: center;
+  background-color: #333;
+  color: #fff;
+}
+@media(max-width:700px){
+  #list{
+    
+    flex-direction: column;
+    gap: 15px;
+    justify-content: center;
+    align-items: center;
+
+  }
+  #about p{
+    margin-left: 20px;
+    margin-right:20px;
+  }
+}
